@@ -6,6 +6,7 @@
    <UUID>8eb12b60-f723-49e3-887c-c65b13967926</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\user\Documents\Tugas\API\test-api.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

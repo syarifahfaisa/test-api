@@ -16,6 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
+
+def faker = new Faker()
+
+GlobalVariable.name = faker.name().fullName()
+
+GlobalVariable.email = faker.internet().emailAddress()
+
+GlobalVariable.password = faker.internet().password()
+
+System.out.println(GlobalVariable.name)
+System.out.println(GlobalVariable.email)
+System.out.println(GlobalVariable.password)
 
 response = WS.sendRequest(findTestObject('Auth/registration'))
 
