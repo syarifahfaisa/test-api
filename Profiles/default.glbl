@@ -26,7 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3YTZlMmU1LWE1MjUtNDY5OS1iMWQ2LTE1MDI2M2NjYjA3NCIsImNvbXBhbnlJZCI6IjA3NTk0OTQ0LTRmYmEtNGQyNi1hNzYyLWEwNzE0OWQyYTgwOSIsImlhdCI6MTY4MjY4NTc0NX0.s9TtxC4IZFUROi-cslGPAKWAqHcVH70ssbItyLjdoCQ'</initValue>
       <name>accessToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>userId</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

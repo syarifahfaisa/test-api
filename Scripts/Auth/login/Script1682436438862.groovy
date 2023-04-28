@@ -32,4 +32,4 @@ WS.verifyElementPropertyValue(response, 'message', 'Authentication berhasil dita
 
 GlobalVariable.accessToken = jsonResponse.data.accessToken
 
-//CustomKeywords.'schemaAssertion.LoginSchemaAssertion.loginSchemaAssertion'(response)
+CustomKeywords.'schemaAssertion.LoginSchemaAssertion.loginSchemaAssertion'(response)

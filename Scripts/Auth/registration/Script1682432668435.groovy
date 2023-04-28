@@ -26,10 +26,6 @@ GlobalVariable.email = faker.internet().emailAddress()
 
 GlobalVariable.password = faker.internet().password()
 
-System.out.println(GlobalVariable.name)
-System.out.println(GlobalVariable.email)
-System.out.println(GlobalVariable.password)
-
 response = WS.sendRequest(findTestObject('Auth/registration'))
 
 WS.verifyResponseStatusCode(response, 201)
